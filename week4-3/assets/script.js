@@ -82,6 +82,13 @@ function myfunction4(num4) {
         let eded = num4   // yeni deyisene bunu
         eded=num4+qaliq* 10 // burada qaliqin ustune 
         }
+            else if (num4>100 && num4<1000){
+                        let qaliq = num4%10
+                        num4=(num4-qaliq)/100
+                        let eded = num4
+                        eded=num4+qaliq*100
+            }
+            
         return 0;
 
 const num4 = 37
